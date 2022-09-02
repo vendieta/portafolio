@@ -8,7 +8,7 @@ body{
 
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #591C21;
 
 }
 
@@ -34,12 +34,64 @@ body{
 
 #welcome-section{
 
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
+
+
+}
+
+.Ptitle{
+
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.content{
+
+
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    /* flex-direction: ; */
+
+}
+
+#projects{
+
+
+    
+    align-items: center;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.Tproyecto{
+
+    background-color: aqua;
+    font-size: 26px;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+#ae{
+
+    text-align: center;
+    height: 298px;
+    width: 300px;
+    background-color: black;
+    display: block;
+    text-decoration: none;
 
 
 }
