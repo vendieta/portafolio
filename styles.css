@@ -45,10 +45,25 @@ body{
 
 }
 
+h1{
+
+    font-size: 100px;
+
+}
+
 .Ptitle{
 
     text-align: center;
     font-size: 30px;
+
+}
+
+.prcuadro{
+
+    height: 250px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -73,14 +88,15 @@ body{
 
 }
 
-.Tproyecto{
+#Tproyecto{
 
-    background-color: aqua;
+    
     font-size: 26px;
-    display: block;
+    display: inline;
     margin: 0;
     margin-left: auto;
-    padding: 10px;
+    padding: 8px;
+ 
 
 }
 
@@ -89,7 +105,7 @@ body{
     text-align: center;
     height: 298px;
     width: 300px;
-    background-color: black;
+    
     display: block;
     text-decoration: none;
 
