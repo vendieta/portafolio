@@ -1,6 +1,25 @@
 body{
 
     margin: 0;
+    background-color: #303841;
+
+
+}
+
+p{
+    color: #f0f0f0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#linea-ceparacion{
+
+    text-align: center;
+    height: 3px;
+    width: 50%;
+    background-color: #f0f0f0;
 
 }
 
@@ -8,7 +27,7 @@ body{
 
     display: flex;
     justify-content: space-between;
-    background-color: #591C21;
+    background-color: #be3144;
 
 }
 
@@ -32,7 +51,7 @@ body{
 
 }
 
-#welcome-section{
+.parte1{
 
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     display: flex;
@@ -47,14 +66,42 @@ body{
 
 h1{
 
-    font-size: 100px;
+    font-size: 58px;
+    color: #f0f0f0;
+    margin: 0;
+    font-family: poppins;
+
+}
+
+#title1{
+
+    font-size: 27px;
+    color: #be3144;
+    margin: 0;
+    font-family: 'Silkscreen', cursive;
+
+}
+
+.parte2{
+
+    height: 100vh;
+    width: 100%;
+    background-color: #45567d;
 
 }
 
 .Ptitle{
 
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    color: #f0f0f0;
+
+}
+
+#Ptitle1{
+
+    padding-top: 50px;
+    margin: 0 0 30px 0;
 
 }
 
@@ -105,9 +152,67 @@ h1{
     text-align: center;
     height: 298px;
     width: 300px;
-    
+    background-color: #303841;
     display: block;
     text-decoration: none;
+    color: #f0f0f0;
 
 
 }
+.parte3{
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+#Tcuentas{
+
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+
+}
+
+#titleC{
+
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+.profile-link{
+
+    font-size: 25px;
+    color: orangered;
+
+}
+
+#linea-final{
+
+    background-color: #be3144;
+    height: 6px;
+    width: 100%;
+    border: 0;
+
+
+}
+
+footer{
+
+    font-size: 20px;
+    text-align: center;
+    color: #f0f0f0;
+    
+
+}
+
+
+
