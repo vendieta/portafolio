@@ -11,7 +11,9 @@ p{
 }
 
 a{
+    
     text-decoration: none;
+    
 }
 
 #linea-ceparacion{
@@ -26,16 +28,18 @@ a{
 #header{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: #be3144;
+    position: fixed;
+    width: 100%;
 
 }
 
 .navbar{
 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    padding-right: 9px;
 
 
 
@@ -47,7 +51,8 @@ a{
     padding: 20px;
     font-size: 25px;
     text-decoration: none;
-    color: orange;
+    color: #f0f0f0;
+    font-family: poppins,sans-serif;
 
 }
 
@@ -69,7 +74,7 @@ h1{
     font-size: 58px;
     color: #f0f0f0;
     margin: 0;
-    font-family: poppins;
+    font-family: poppins,sans-serif;
 
 }
 
@@ -87,21 +92,26 @@ h1{
     height: 100vh;
     width: 100%;
     background-color: #45567d;
+    font-family: poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
 .Ptitle{
 
     text-align: center;
-    font-size: 50px;
-    color: #f0f0f0;
+   
 
 }
 
 #Ptitle1{
 
     padding-top: 50px;
-    margin: 0 0 30px 0;
+    margin: 0 0 4px 0;
+    font-size: 50px;
+    color: #f0f0f0;
 
 }
 
@@ -163,6 +173,10 @@ h1{
 
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 
 }
 
@@ -170,11 +184,10 @@ h1{
 #Tcuentas{
 
     text-align: center;
-    font-size: 50px;
-    padding-top: 40px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    font-size: 60px;
     color: #f0f0f0;
+    margin: 0;
+    
 
 }
 
@@ -184,14 +197,47 @@ h1{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin: 0;
+    
     
 
 }
 
+.cuentas{
+
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+#cuentas2{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+fa-brands fa-facebook{
+
+    color: #f0f0f0;
+
+}
+
+
 .profile-link{
 
     font-size: 25px;
-    color: orangered;
+    color: #f0f0f0;
+    padding: 20px;
+    
+}
+
+#cuenta{
+
+    display: inline;
+    
 
 }
 
